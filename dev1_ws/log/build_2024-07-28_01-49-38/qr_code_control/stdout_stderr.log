@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../../build/qr_code_control/qr_code_control.egg-info
+writing ../../../../build/qr_code_control/qr_code_control.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/qr_code_control/qr_code_control.egg-info/dependency_links.txt
+writing entry points to ../../../../build/qr_code_control/qr_code_control.egg-info/entry_points.txt
+writing requirements to ../../../../build/qr_code_control/qr_code_control.egg-info/requires.txt
+writing top-level names to ../../../../build/qr_code_control/qr_code_control.egg-info/top_level.txt
+writing manifest file '../../../../build/qr_code_control/qr_code_control.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/qr_code_control/qr_code_control.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/qr_code_control/qr_code_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/dev1_ws/build/qr_code_control/build
+creating /root/dev1_ws/build/qr_code_control/build/lib
+creating /root/dev1_ws/build/qr_code_control/build/lib/qr_code_control
+copying qr_code_control/__init__.py -> /root/dev1_ws/build/qr_code_control/build/lib/qr_code_control
+copying qr_code_control/qr_code_control_node.py -> /root/dev1_ws/build/qr_code_control/build/lib/qr_code_control
+running install
+running install_lib
+creating /root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages/qr_code_control
+copying /root/dev1_ws/build/qr_code_control/build/lib/qr_code_control/__init__.py -> /root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages/qr_code_control
+copying /root/dev1_ws/build/qr_code_control/build/lib/qr_code_control/qr_code_control_node.py -> /root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages/qr_code_control
+byte-compiling /root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages/qr_code_control/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages/qr_code_control/qr_code_control_node.py to qr_code_control_node.cpython-38.pyc
+running install_data
+creating /root/dev1_ws/install/qr_code_control/share/ament_index
+creating /root/dev1_ws/install/qr_code_control/share/ament_index/resource_index
+creating /root/dev1_ws/install/qr_code_control/share/ament_index/resource_index/packages
+copying resource/qr_code_control -> /root/dev1_ws/install/qr_code_control/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev1_ws/install/qr_code_control/share/qr_code_control
+running install_egg_info
+Copying ../../../../build/qr_code_control/qr_code_control.egg-info to /root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages/qr_code_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing qr_code_control_node script to /root/dev1_ws/install/qr_code_control/lib/qr_code_control
+writing list of installed files to '/root/dev1_ws/build/qr_code_control/install.log'

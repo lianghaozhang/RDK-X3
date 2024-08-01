@@ -1,0 +1,66 @@
+[0.158s] Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/utils -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/utils
+[0.669s] -- The C compiler identification is GNU 9.4.0
+[1.148s] -- The CXX compiler identification is GNU 9.4.0
+[1.203s] -- Check for working C compiler: /usr/bin/cc
+[2.033s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.034s] -- Detecting C compiler ABI info
+[2.565s] -- Detecting C compiler ABI info - done
+[2.753s] -- Detecting C compile features
+[2.758s] -- Detecting C compile features - done
+[2.779s] -- Check for working CXX compiler: /usr/bin/c++
+[3.367s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.376s] -- Detecting CXX compiler ABI info
+[3.973s] -- Detecting CXX compiler ABI info - done
+[4.088s] -- Detecting CXX compile features
+[4.093s] -- Detecting CXX compile features - done
+[4.125s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[4.419s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.420s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.402s] -- Found rclcpp: 2.4.3 (/opt/tros/share/rclcpp/cmake)
+[7.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.941s] -- Found rosidl_adapter: 1.3.1 (/opt/tros/share/rosidl_adapter/cmake)
+[8.311s] -- Found FastRTPS: /opt/tros/include  
+[9.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.696s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/tros/share/rmw_implementation_cmake/cmake)
+[9.728s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.735s] -- Looking for pthread.h
+[10.363s] -- Looking for pthread.h - found
+[10.366s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.889s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.890s] -- Looking for pthread_create in pthreads
+[11.401s] -- Looking for pthread_create in pthreads - not found
+[11.407s] -- Looking for pthread_create in pthread
+[12.191s] -- Looking for pthread_create in pthread - found
+[12.209s] -- Found Threads: TRUE  
+[13.386s] -- Found cv_bridge: 3.0.3 (/opt/tros/share/cv_bridge/cmake)
+[15.250s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/share/hbm_img_msgs/cmake)
+[16.177s] -- Configuring done
+[16.255s] -- Generating done
+[16.279s] -- Build files have been written to: /root/dev1_ws/build/utils
+[16.356s] Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/utils -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/utils
+[16.373s] Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/utils -- -j4 -l4
+[16.667s] [35m[1mScanning dependencies of target image_transport_node[0m
+[17.223s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport_node.dir/src/image_transport_node.cpp.o[0m
+[80.203s] [100%] [32m[1mLinking CXX executable image_transport_node[0m
+[87.292s] [100%] Built target image_transport_node
+[87.353s] Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/utils -- -j4 -l4
+[87.483s] Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/utils
+[87.532s] -- Install configuration: ""
+[87.533s] -- Installing: /root/dev1_ws/install/utils/lib/utils/image_transport_node
+[87.552s] -- Set runtime path of "/root/dev1_ws/install/utils/lib/utils/image_transport_node" to ""
+[87.553s] -- Installing: /root/dev1_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[87.554s] -- Installing: /root/dev1_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[87.556s] -- Installing: /root/dev1_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+[87.558s] -- Installing: /root/dev1_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+[87.559s] -- Installing: /root/dev1_ws/install/utils/share/utils/environment/path.sh
+[87.561s] -- Installing: /root/dev1_ws/install/utils/share/utils/environment/path.dsv
+[87.562s] -- Installing: /root/dev1_ws/install/utils/share/utils/local_setup.bash
+[87.563s] -- Installing: /root/dev1_ws/install/utils/share/utils/local_setup.sh
+[87.564s] -- Installing: /root/dev1_ws/install/utils/share/utils/local_setup.zsh
+[87.566s] -- Installing: /root/dev1_ws/install/utils/share/utils/local_setup.dsv
+[87.567s] -- Installing: /root/dev1_ws/install/utils/share/utils/package.dsv
+[87.568s] -- Installing: /root/dev1_ws/install/utils/share/ament_index/resource_index/packages/utils
+[87.569s] -- Installing: /root/dev1_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+[87.570s] -- Installing: /root/dev1_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[87.571s] -- Installing: /root/dev1_ws/install/utils/share/utils/package.xml
+[87.581s] Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/utils

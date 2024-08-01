@@ -1,0 +1,22 @@
+[6.412s] Invoking command in '/root/dev1_ws/build/origincar_abc': PYTHONPATH=/root/dev1_ws/build/origincar_abc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/dev1_ws/build/origincar_abc/build --no-deps symlink_data --force
+[8.785s] running develop
+[10.361s] running egg_info
+[10.369s] writing origincar_abc.egg-info/PKG-INFO
+[10.370s] writing dependency_links to origincar_abc.egg-info/dependency_links.txt
+[10.371s] writing entry points to origincar_abc.egg-info/entry_points.txt
+[10.372s] writing requirements to origincar_abc.egg-info/requires.txt
+[10.382s] writing top-level names to origincar_abc.egg-info/top_level.txt
+[10.666s] reading manifest file 'origincar_abc.egg-info/SOURCES.txt'
+[10.672s] writing manifest file 'origincar_abc.egg-info/SOURCES.txt'
+[11.026s] running build_ext
+[11.030s] Creating /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar-abc.egg-link (link to .)
+[11.036s] Installing foxglove script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc
+[11.046s] Installing test_node script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc
+[11.047s] 
+[11.053s] Installed /root/dev1_ws/build/origincar_abc
+[11.054s] running symlink_data
+[11.055s] symbolically linking /root/dev1_ws/build/origincar_abc/resource/origincar_abc -> /root/dev1_ws/install/origincar_abc/share/ament_index/resource_index/packages
+[11.056s] symbolically linking /root/dev1_ws/build/origincar_abc/package.xml -> /root/dev1_ws/install/origincar_abc/share/origincar_abc
+[11.057s] symbolically linking /root/dev1_ws/build/origincar_abc/launch/yolov5.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch
+[11.058s] symbolically linking /root/dev1_ws/build/origincar_abc/launch/base_cam_qrcode.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch
+[11.295s] Invoked command in '/root/dev1_ws/build/origincar_abc' returned '0': PYTHONPATH=/root/dev1_ws/build/origincar_abc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/dev1_ws/build/origincar_abc/build --no-deps symlink_data --force

@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.001586] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.002154] (-) JobUnselected: {'identifier': 'dnn_benchmark_example'}
+[0.003454] (-) JobUnselected: {'identifier': 'dnn_node'}
+[0.004587] (-) JobUnselected: {'identifier': 'dnn_node_example'}
+[0.005661] (-) JobUnselected: {'identifier': 'dnn_node_sample'}
+[0.006143] (-) JobUnselected: {'identifier': 'line_follower_perception'}
+[0.006569] (-) JobUnselected: {'identifier': 'origincar_base'}
+[0.006892] (-) JobUnselected: {'identifier': 'origincar_bringup'}
+[0.007303] (-) JobUnselected: {'identifier': 'origincar_description'}
+[0.007693] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.008133] (-) JobUnselected: {'identifier': 'qr_code_control'}
+[0.008609] (-) JobUnselected: {'identifier': 'qr_code_detection'}
+[0.008980] (-) JobUnselected: {'identifier': 'serial'}
+[0.009311] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.009602] (-) JobUnselected: {'identifier': 'utils'}
+[0.009878] (origincar_abc) JobQueued: {'identifier': 'origincar_abc', 'dependencies': OrderedDict()}
+[0.010153] (origincar_abc) JobStarted: {'identifier': 'origincar_abc'}
+[0.098444] (-) TimerEvent: {}
+[0.199555] (-) TimerEvent: {}
+[0.300633] (-) TimerEvent: {}
+[0.401616] (-) TimerEvent: {}
+[0.502608] (-) TimerEvent: {}
+[0.603713] (-) TimerEvent: {}
+[0.704676] (-) TimerEvent: {}
+[0.805633] (-) TimerEvent: {}
+[0.906830] (-) TimerEvent: {}
+[1.008008] (-) TimerEvent: {}
+[1.109013] (-) TimerEvent: {}
+[1.209995] (-) TimerEvent: {}
+[1.310937] (-) TimerEvent: {}
+[1.412250] (-) TimerEvent: {}
+[1.513191] (-) TimerEvent: {}
+[1.614133] (-) TimerEvent: {}
+[1.715499] (-) TimerEvent: {}
+[1.816500] (-) TimerEvent: {}
+[1.917537] (-) TimerEvent: {}
+[2.018555] (-) TimerEvent: {}
+[2.119649] (-) TimerEvent: {}
+[2.220646] (-) TimerEvent: {}
+[2.323169] (-) TimerEvent: {}
+[2.424914] (-) TimerEvent: {}
+[2.526176] (-) TimerEvent: {}
+[2.627133] (-) TimerEvent: {}
+[2.728042] (-) TimerEvent: {}
+[2.828969] (-) TimerEvent: {}
+[2.930030] (-) TimerEvent: {}
+[3.031141] (-) TimerEvent: {}
+[3.132075] (-) TimerEvent: {}
+[3.233073] (-) TimerEvent: {}
+[3.334063] (-) TimerEvent: {}
+[3.435055] (-) TimerEvent: {}
+[3.536021] (-) TimerEvent: {}
+[3.637311] (-) TimerEvent: {}
+[3.738601] (-) TimerEvent: {}
+[3.839656] (-) TimerEvent: {}
+[3.940656] (-) TimerEvent: {}
+[4.042076] (-) TimerEvent: {}
+[4.143229] (-) TimerEvent: {}
+[4.244193] (-) TimerEvent: {}
+[4.345159] (-) TimerEvent: {}
+[4.446067] (-) TimerEvent: {}
+[4.547357] (-) TimerEvent: {}
+[4.648325] (-) TimerEvent: {}
+[4.749275] (-) TimerEvent: {}
+[4.850533] (-) TimerEvent: {}
+[4.951913] (-) TimerEvent: {}
+[5.052908] (-) TimerEvent: {}
+[5.153884] (-) TimerEvent: {}
+[5.254829] (-) TimerEvent: {}
+[5.355970] (-) TimerEvent: {}
+[5.457089] (-) TimerEvent: {}
+[5.558325] (-) TimerEvent: {}
+[5.574559] (origincar_abc) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/root/dev1_ws/build/origincar_abc/build'], 'cwd': '/root/dev1_ws/build/origincar_abc', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.31.208 40316 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-553d3211-8821-44ba-a9b2-68b59a570894.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/dev1_ws/install:/opt/tros:/root/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-ccb07c8818.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/dev1_ws/install/utils:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/serial:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/origincar_abc:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/ackermann_msgs:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/vlpr:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/dev1_ws/build/origincar_abc', 'SSH_CONNECTION': '192.168.31.208 40316 192.168.31.175 22', 'PYTHONPATH': '/root/dev1_ws/build/origincar_abc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/ackermann_msgs:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros'}, 'shell': False}
+[5.658575] (-) TimerEvent: {}
+[5.759740] (-) TimerEvent: {}
+[5.860683] (-) TimerEvent: {}
+[5.961650] (-) TimerEvent: {}
+[6.063077] (-) TimerEvent: {}
+[6.164246] (-) TimerEvent: {}
+[6.265339] (-) TimerEvent: {}
+[6.366274] (-) TimerEvent: {}
+[6.467573] (-) TimerEvent: {}
+[6.568568] (-) TimerEvent: {}
+[6.670412] (-) TimerEvent: {}
+[6.771645] (-) TimerEvent: {}
+[6.872632] (-) TimerEvent: {}
+[6.973582] (-) TimerEvent: {}
+[7.074535] (-) TimerEvent: {}
+[7.175582] (-) TimerEvent: {}
+[7.276652] (-) TimerEvent: {}
+[7.377632] (-) TimerEvent: {}
+[7.478594] (-) TimerEvent: {}
+[7.579948] (-) TimerEvent: {}
+[7.680932] (-) TimerEvent: {}
+[7.697094] (origincar_abc) StdoutLine: {'line': b'running develop\n'}
+[7.781153] (-) TimerEvent: {}
+[7.882260] (-) TimerEvent: {}
+[7.983309] (-) TimerEvent: {}
+[8.084402] (-) TimerEvent: {}
+[8.185371] (-) TimerEvent: {}
+[8.286298] (-) TimerEvent: {}
+[8.387287] (-) TimerEvent: {}
+[8.488659] (-) TimerEvent: {}
+[8.590021] (-) TimerEvent: {}
+[8.691051] (-) TimerEvent: {}
+[8.792070] (-) TimerEvent: {}
+[8.893037] (-) TimerEvent: {}
+[8.913444] (origincar_abc) StdoutLine: {'line': b'Removing /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar-abc.egg-link (link to .)\n'}
+[8.993293] (-) TimerEvent: {}
+[9.093125] (origincar_abc) CommandEnded: {'returncode': 0}
+[9.096094] (-) TimerEvent: {}
+[9.100206] (origincar_abc) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/origincar_abc', 'build', '--build-base', '/root/dev1_ws/build/origincar_abc/build', 'install', '--record', '/root/dev1_ws/build/origincar_abc/install.log', '--install-scripts', '$base/lib/origincar_abc', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/root/dev1_ws/src/origincar/origincar_abc', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.31.208 40316 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.86.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-553d3211-8821-44ba-a9b2-68b59a570894.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/dev1_ws/install:/opt/tros:/root/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-ccb07c8818.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/root/dev1_ws/install/utils:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/serial:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/origincar_abc:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/ackermann_msgs:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/vlpr:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/root/dev1_ws/build/origincar_abc', 'SSH_CONNECTION': '192.168.31.208 40316 192.168.31.175 22', 'PYTHONPATH': '/root/dev1_ws/build/origincar_abc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/ackermann_msgs:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros'}, 'shell': False}
+[9.196337] (-) TimerEvent: {}
+[9.297319] (-) TimerEvent: {}
+[9.398253] (-) TimerEvent: {}
+[9.499359] (-) TimerEvent: {}
+[9.600487] (-) TimerEvent: {}
+[9.701608] (-) TimerEvent: {}
+[9.802675] (-) TimerEvent: {}
+[9.903744] (-) TimerEvent: {}
+[10.004701] (-) TimerEvent: {}
+[10.105643] (-) TimerEvent: {}
+[10.206636] (-) TimerEvent: {}
+[10.307998] (-) TimerEvent: {}
+[10.409096] (-) TimerEvent: {}
+[10.510368] (-) TimerEvent: {}
+[10.611689] (-) TimerEvent: {}
+[10.712984] (-) TimerEvent: {}
+[10.814255] (-) TimerEvent: {}
+[10.915264] (-) TimerEvent: {}
+[10.967965] (origincar_abc) StdoutLine: {'line': b'running egg_info\n'}
+[10.972414] (origincar_abc) StdoutLine: {'line': b'writing ../../../build/origincar_abc/origincar_abc.egg-info/PKG-INFO\n'}
+[10.973920] (origincar_abc) StdoutLine: {'line': b'writing dependency_links to ../../../build/origincar_abc/origincar_abc.egg-info/dependency_links.txt\n'}
+[10.976632] (origincar_abc) StdoutLine: {'line': b'writing entry points to ../../../build/origincar_abc/origincar_abc.egg-info/entry_points.txt\n'}
+[10.977937] (origincar_abc) StdoutLine: {'line': b'writing requirements to ../../../build/origincar_abc/origincar_abc.egg-info/requires.txt\n'}
+[10.979267] (origincar_abc) StdoutLine: {'line': b'writing top-level names to ../../../build/origincar_abc/origincar_abc.egg-info/top_level.txt\n'}
+[11.015439] (-) TimerEvent: {}
+[11.116363] (-) TimerEvent: {}
+[11.217300] (-) TimerEvent: {}
+[11.272015] (origincar_abc) StdoutLine: {'line': b"reading manifest file '../../../build/origincar_abc/origincar_abc.egg-info/SOURCES.txt'\n"}
+[11.278565] (origincar_abc) StdoutLine: {'line': b"writing manifest file '../../../build/origincar_abc/origincar_abc.egg-info/SOURCES.txt'\n"}
+[11.279955] (origincar_abc) StdoutLine: {'line': b'running build\n'}
+[11.280840] (origincar_abc) StdoutLine: {'line': b'running build_py\n'}
+[11.281860] (origincar_abc) StdoutLine: {'line': b'copying origincar_abc/foxglove.py -> /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc\n'}
+[11.282855] (origincar_abc) StdoutLine: {'line': b'running install\n'}
+[11.288933] (origincar_abc) StdoutLine: {'line': b'running install_lib\n'}
+[11.295195] (origincar_abc) StdoutLine: {'line': b'creating /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc\n'}
+[11.296407] (origincar_abc) StdoutLine: {'line': b'copying /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc/__init__.py -> /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc\n'}
+[11.297638] (origincar_abc) StdoutLine: {'line': b'copying /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc/foxglove.py -> /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc\n'}
+[11.298457] (origincar_abc) StdoutLine: {'line': b'copying /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc/test.py -> /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc\n'}
+[11.301597] (origincar_abc) StdoutLine: {'line': b'byte-compiling /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc/__init__.py to __init__.cpython-38.pyc\n'}
+[11.310855] (origincar_abc) StdoutLine: {'line': b'byte-compiling /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc/foxglove.py to foxglove.cpython-38.pyc\n'}
+[11.317552] (-) TimerEvent: {}
+[11.320597] (origincar_abc) StdoutLine: {'line': b'byte-compiling /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc/test.py to test.cpython-38.pyc\n'}
+[11.325565] (origincar_abc) StdoutLine: {'line': b'running install_data\n'}
+[11.327570] (origincar_abc) StdoutLine: {'line': b'copying resource/origincar_abc -> /root/dev1_ws/install/origincar_abc/share/ament_index/resource_index/packages\n'}
+[11.328687] (origincar_abc) StdoutLine: {'line': b'copying package.xml -> /root/dev1_ws/install/origincar_abc/share/origincar_abc\n'}
+[11.329896] (origincar_abc) StdoutLine: {'line': b'copying launch/yolov5.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch\n'}
+[11.330704] (origincar_abc) StdoutLine: {'line': b'copying launch/base_cam_qrcode.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch\n'}
+[11.331625] (origincar_abc) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.341177] (origincar_abc) StdoutLine: {'line': b'Copying ../../../build/origincar_abc/origincar_abc.egg-info to /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc-0.0.0-py3.8.egg-info\n'}
+[11.347450] (origincar_abc) StdoutLine: {'line': b'running install_scripts\n'}
+[11.417800] (-) TimerEvent: {}
+[11.471586] (origincar_abc) StdoutLine: {'line': b'Installing foxglove script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc\n'}
+[11.472823] (origincar_abc) StdoutLine: {'line': b'Installing test_node script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc\n'}
+[11.475030] (origincar_abc) StdoutLine: {'line': b"writing list of installed files to '/root/dev1_ws/build/origincar_abc/install.log'\n"}
+[11.518053] (-) TimerEvent: {}
+[11.619119] (-) TimerEvent: {}
+[11.649482] (origincar_abc) CommandEnded: {'returncode': 0}
+[11.722355] (-) TimerEvent: {}
+[11.727933] (origincar_abc) JobEnded: {'identifier': 'origincar_abc', 'rc': 0}
+[11.733211] (-) EventReactorShutdown: {}

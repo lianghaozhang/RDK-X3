@@ -1,0 +1,978 @@
+[1.754s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.755s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f99649880>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f99649880>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f99657130>)
+[3.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.064s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/dev1_ws'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[3.228s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[3.229s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[3.229s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[3.229s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extensions ['ignore', 'ignore_ament_install']
+[3.234s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'ignore'
+[3.234s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'ignore_ament_install'
+[3.235s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extensions ['colcon_pkg']
+[3.235s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'colcon_pkg'
+[3.235s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extensions ['colcon_meta']
+[3.235s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'colcon_meta'
+[3.236s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extensions ['ros']
+[3.236s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'ros'
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extensions ['cmake', 'python']
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'cmake'
+[3.237s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'python'
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extensions ['python_setup_py']
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(config/efficient_det) by extension 'python_setup_py'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extensions ['ignore', 'ignore_ament_install']
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'ignore'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'ignore_ament_install'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extensions ['colcon_pkg']
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'colcon_pkg'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extensions ['colcon_meta']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'colcon_meta'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extensions ['ros']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'ros'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extensions ['cmake', 'python']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'cmake'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'python'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extensions ['python_setup_py']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar) by extension 'python_setup_py'
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extensions ['ignore', 'ignore_ament_install']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'ignore'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'ignore_ament_install'
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extensions ['colcon_pkg']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'colcon_pkg'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extensions ['colcon_meta']
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'colcon_meta'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extensions ['ros']
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'ros'
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extensions ['cmake', 'python']
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'cmake'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'python'
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extensions ['python_setup_py']
+[3.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty) by extension 'python_setup_py'
+[3.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extension 'ignore'
+[3.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extension 'ignore_ament_install'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extensions ['colcon_pkg']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extension 'colcon_pkg'
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extensions ['colcon_meta']
+[3.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extension 'colcon_meta'
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extensions ['ros']
+[3.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/ackermann_msgs-ros2) by extension 'ros'
+[3.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/3rdparty/ackermann_msgs-ros2' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extensions ['ignore', 'ignore_ament_install']
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extension 'ignore'
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extension 'ignore_ament_install'
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extensions ['colcon_pkg']
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extension 'colcon_pkg'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extensions ['colcon_meta']
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extension 'colcon_meta'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extensions ['ros']
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/serial_ros2) by extension 'ros'
+[3.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/3rdparty/serial_ros2' with type 'ros.ament_cmake' and name 'serial'
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extensions ['ignore', 'ignore_ament_install']
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extension 'ignore'
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extension 'ignore_ament_install'
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extensions ['colcon_pkg']
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extension 'colcon_pkg'
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extensions ['colcon_meta']
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extension 'colcon_meta'
+[3.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extensions ['ros']
+[3.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/3rdparty/tf2_tools) by extension 'ros'
+[3.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/3rdparty/tf2_tools' with type 'ros.ament_python' and name 'tf2_tools'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extensions ['ignore', 'ignore_ament_install']
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'ignore'
+[3.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'ignore_ament_install'
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extensions ['colcon_pkg']
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'colcon_pkg'
+[3.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extensions ['colcon_meta']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'colcon_meta'
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extensions ['ros']
+[3.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'ros'
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extensions ['cmake', 'python']
+[3.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'cmake'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'python'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extensions ['python_setup_py']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning) by extension 'python_setup_py'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extensions ['ignore', 'ignore_ament_install']
+[3.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extension 'ignore'
+[3.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extension 'ignore_ament_install'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extensions ['colcon_pkg']
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extension 'colcon_pkg'
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extensions ['colcon_meta']
+[3.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extension 'colcon_meta'
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extensions ['ros']
+[3.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_deeplearning/line_follower_perception) by extension 'ros'
+[3.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/originbot_deeplearning/line_follower_perception' with type 'ros.ament_cmake' and name 'line_follower_perception'
+[3.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extensions ['ignore', 'ignore_ament_install']
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'ignore'
+[3.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'ignore_ament_install'
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extensions ['colcon_pkg']
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'colcon_pkg'
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extensions ['colcon_meta']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'colcon_meta'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extensions ['ros']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'ros'
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extensions ['cmake', 'python']
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'cmake'
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'python'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extensions ['python_setup_py']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code) by extension 'python_setup_py'
+[3.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extensions ['ignore', 'ignore_ament_install']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extension 'ignore'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extension 'ignore_ament_install'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extensions ['colcon_pkg']
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extension 'colcon_pkg'
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extensions ['colcon_meta']
+[3.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extension 'colcon_meta'
+[3.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extensions ['ros']
+[3.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_control) by extension 'ros'
+[3.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/originbot_qr_code/qr_code_control' with type 'ros.ament_python' and name 'qr_code_control'
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extensions ['ignore', 'ignore_ament_install']
+[3.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extension 'ignore'
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extension 'ignore_ament_install'
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extensions ['colcon_pkg']
+[3.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extension 'colcon_pkg'
+[3.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extensions ['colcon_meta']
+[3.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extension 'colcon_meta'
+[3.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extensions ['ros']
+[3.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/originbot_qr_code/qr_code_detection) by extension 'ros'
+[3.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/originbot_qr_code/qr_code_detection' with type 'ros.ament_python' and name 'qr_code_detection'
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extensions ['ignore', 'ignore_ament_install']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extension 'ignore'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extension 'ignore_ament_install'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extensions ['colcon_pkg']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extension 'colcon_pkg'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extensions ['colcon_meta']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extension 'colcon_meta'
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extensions ['ros']
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_abc) by extension 'ros'
+[3.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/origincar_abc' with type 'ros.ament_python' and name 'origincar_abc'
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extensions ['ignore', 'ignore_ament_install']
+[3.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extension 'ignore'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extension 'ignore_ament_install'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extensions ['colcon_pkg']
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extension 'colcon_pkg'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extensions ['colcon_meta']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extension 'colcon_meta'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extensions ['ros']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_base) by extension 'ros'
+[3.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/origincar_base' with type 'ros.ament_cmake' and name 'origincar_base'
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extension 'ignore'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extension 'ignore_ament_install'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extensions ['colcon_pkg']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extension 'colcon_pkg'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extensions ['colcon_meta']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extension 'colcon_meta'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extensions ['ros']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_bringup) by extension 'ros'
+[3.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/origincar_bringup' with type 'ros.ament_cmake' and name 'origincar_bringup'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extensions ['ignore', 'ignore_ament_install']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extension 'ignore'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extension 'ignore_ament_install'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extensions ['colcon_pkg']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extension 'colcon_pkg'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extensions ['colcon_meta']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extension 'colcon_meta'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extensions ['ros']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_description) by extension 'ros'
+[3.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/origincar_description' with type 'ros.ament_cmake' and name 'origincar_description'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extensions ['ignore', 'ignore_ament_install']
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extension 'ignore'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extension 'ignore_ament_install'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extensions ['colcon_pkg']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extension 'colcon_pkg'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extensions ['colcon_meta']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extension 'colcon_meta'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extensions ['ros']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/origincar_msg) by extension 'ros'
+[3.413s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/origincar_msg' with type 'ros.ament_cmake' and name 'origincar_msg'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extensions ['ignore', 'ignore_ament_install']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extension 'ignore'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extension 'ignore_ament_install'
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extensions ['colcon_pkg']
+[3.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extension 'colcon_pkg'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extensions ['colcon_meta']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extension 'colcon_meta'
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extensions ['ros']
+[3.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar/utils) by extension 'ros'
+[3.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar/utils' with type 'ros.ament_cmake' and name 'utils'
+[3.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.627s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/utils' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.628s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/tf2_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.629s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/origincar_base' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.629s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/serial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.629s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/qr_code_detection' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.630s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/qr_code_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.630s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/origincar_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.630s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/origincar_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.631s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/origincar_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.631s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/origincar_abc' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.632s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/line_follower_perception' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.632s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/dnn_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.632s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/dev1_ws/install/ackermann_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.639s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/utils' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.640s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/origincar_base' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.640s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/serial' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.641s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/origincar_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.641s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/origincar_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.642s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/origincar_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.642s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/line_follower_perception' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.642s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/dnn_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.643s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/dev1_ws/install/ackermann_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.649s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /root/dev1_ws/install
+[3.694s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/tros
+[3.723s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /root/dev_ws/install
+[3.735s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 255 installed packages in /opt/ros/foxy
+[3.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.473s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'serial' is in: /root/dev_ws/install/serial
+	'tf2_tools' is in: /opt/tros, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding serial tf2_tools
+
+This may be promoted to an error in a future release of colcon-override-check.
+[4.486s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_args' from command line to 'None'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target' from command line to 'None'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.488s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.488s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.488s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.488s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.488s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.489s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/ackermann_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/ackermann_msgs', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/3rdparty/ackermann_msgs-ros2', 'symlink_install': False, 'test_result_base': None}
+[4.492s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'cmake_args' from command line to 'None'
+[4.492s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'cmake_target' from command line to 'None'
+[4.493s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.493s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[4.493s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'cmake_clean_first' from command line to 'False'
+[4.493s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'cmake_force_configure' from command line to 'False'
+[4.493s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'ament_cmake_args' from command line to 'None'
+[4.494s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[4.494s] Level 5:colcon.colcon_core.verb:set package 'line_follower_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.494s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/line_follower_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/line_follower_perception', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/originbot_deeplearning/line_follower_perception', 'symlink_install': False, 'test_result_base': None}
+[4.497s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'cmake_args' from command line to 'None'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'cmake_target' from command line to 'None'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'cmake_clean_cache' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'cmake_clean_first' from command line to 'False'
+[4.498s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'cmake_force_configure' from command line to 'False'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'ament_cmake_args' from command line to 'None'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'catkin_cmake_args' from command line to 'None'
+[4.499s] Level 5:colcon.colcon_core.verb:set package 'origincar_abc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.499s] DEBUG:colcon.colcon_core.verb:Building package 'origincar_abc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/origincar_abc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/origincar_abc', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/origincar_abc', 'symlink_install': False, 'test_result_base': None}
+[4.503s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'cmake_args' from command line to 'None'
+[4.503s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'cmake_target' from command line to 'None'
+[4.503s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.504s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[4.504s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[4.504s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[4.504s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[4.504s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[4.504s] Level 5:colcon.colcon_core.verb:set package 'origincar_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.505s] DEBUG:colcon.colcon_core.verb:Building package 'origincar_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/origincar_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/origincar_bringup', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/origincar_bringup', 'symlink_install': False, 'test_result_base': None}
+[4.508s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'cmake_args' from command line to 'None'
+[4.508s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'cmake_target' from command line to 'None'
+[4.509s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.509s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[4.509s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'cmake_clean_first' from command line to 'False'
+[4.509s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'cmake_force_configure' from command line to 'False'
+[4.509s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'ament_cmake_args' from command line to 'None'
+[4.510s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[4.510s] Level 5:colcon.colcon_core.verb:set package 'origincar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.510s] DEBUG:colcon.colcon_core.verb:Building package 'origincar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/origincar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/origincar_description', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/origincar_description', 'symlink_install': False, 'test_result_base': None}
+[4.513s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_args' from command line to 'None'
+[4.514s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_target' from command line to 'None'
+[4.514s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.514s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.514s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[4.514s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[4.515s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[4.515s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.515s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.515s] DEBUG:colcon.colcon_core.verb:Building package 'origincar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/origincar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/origincar_msg', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/origincar_msg', 'symlink_install': False, 'test_result_base': None}
+[4.519s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'cmake_args' from command line to 'None'
+[4.519s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'cmake_target' from command line to 'None'
+[4.519s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.519s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.520s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.520s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.520s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.520s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.520s] Level 5:colcon.colcon_core.verb:set package 'qr_code_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.521s] DEBUG:colcon.colcon_core.verb:Building package 'qr_code_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/qr_code_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/qr_code_control', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_control', 'symlink_install': False, 'test_result_base': None}
+[4.524s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'cmake_args' from command line to 'None'
+[4.524s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'cmake_target' from command line to 'None'
+[4.524s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'cmake_clean_first' from command line to 'False'
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'cmake_force_configure' from command line to 'False'
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'ament_cmake_args' from command line to 'None'
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qr_code_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.526s] DEBUG:colcon.colcon_core.verb:Building package 'qr_code_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/qr_code_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/qr_code_detection', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection', 'symlink_install': False, 'test_result_base': None}
+[4.529s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[4.530s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[4.530s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.530s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[4.530s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[4.530s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[4.530s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[4.531s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[4.531s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.531s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/serial', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/3rdparty/serial_ros2', 'symlink_install': False, 'test_result_base': None}
+[4.534s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_args' from command line to 'None'
+[4.535s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_target' from command line to 'None'
+[4.535s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.535s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[4.535s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_clean_first' from command line to 'False'
+[4.536s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_force_configure' from command line to 'False'
+[4.536s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'ament_cmake_args' from command line to 'None'
+[4.536s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[4.536s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.536s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/tf2_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/tf2_tools', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/3rdparty/tf2_tools', 'symlink_install': False, 'test_result_base': None}
+[4.540s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_args' from command line to 'None'
+[4.540s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target' from command line to 'None'
+[4.540s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.541s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_cache' from command line to 'False'
+[4.541s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_first' from command line to 'False'
+[4.541s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_force_configure' from command line to 'False'
+[4.541s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'ament_cmake_args' from command line to 'None'
+[4.541s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_cmake_args' from command line to 'None'
+[4.541s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.542s] DEBUG:colcon.colcon_core.verb:Building package 'utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/utils', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/utils', 'symlink_install': False, 'test_result_base': None}
+[4.545s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'cmake_args' from command line to 'None'
+[4.545s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'cmake_target' from command line to 'None'
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'cmake_clean_cache' from command line to 'False'
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'cmake_clean_first' from command line to 'False'
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'cmake_force_configure' from command line to 'False'
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'ament_cmake_args' from command line to 'None'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'catkin_cmake_args' from command line to 'None'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'origincar_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.547s] DEBUG:colcon.colcon_core.verb:Building package 'origincar_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev1_ws/build/origincar_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev1_ws/install/origincar_base', 'merge_install': False, 'path': '/root/dev1_ws/src/origincar/origincar_base', 'symlink_install': False, 'test_result_base': None}
+[4.548s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.557s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/3rdparty/ackermann_msgs-ros2' with build type 'ament_cmake'
+[4.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/3rdparty/ackermann_msgs-ros2'
+[4.576s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.665s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/origincar_description' with build type 'ament_cmake'
+[4.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/origincar_description'
+[4.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.670s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.761s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/origincar_msg' with build type 'ament_cmake'
+[4.762s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/origincar_msg'
+[4.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.857s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/3rdparty/serial_ros2' with build type 'ament_cmake'
+[4.860s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/3rdparty/serial_ros2'
+[4.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/3rdparty/ackermann_msgs-ros2 -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/ackermann_msgs
+[5.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_description -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_description
+[5.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_msg -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_msg
+[5.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/serial
+[13.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_description -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_description
+[13.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_description -- -j4 -l4
+[13.929s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_description -- -j4 -l4
+[14.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_description
+[14.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_description)
+[14.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_description
+[14.608s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description' for CMake module files
+[14.615s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description' for CMake config files
+[14.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_description', 'cmake_prefix_path')
+[14.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_description/share/origincar_description/hook/cmake_prefix_path.ps1'
+[14.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_description/share/origincar_description/hook/cmake_prefix_path.dsv'
+[14.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_description/share/origincar_description/hook/cmake_prefix_path.sh'
+[14.642s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/bin'
+[14.643s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/lib/pkgconfig/origincar_description.pc'
+[14.645s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/lib/python3.8/site-packages'
+[14.647s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/bin'
+[14.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.ps1'
+[14.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_description/share/origincar_description/package.dsv'
+[14.667s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.sh'
+[14.674s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.bash'
+[14.681s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.zsh'
+[14.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_description/share/colcon-core/packages/origincar_description)
+[14.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_description)
+[14.967s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description' for CMake module files
+[14.972s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description' for CMake config files
+[14.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_description', 'cmake_prefix_path')
+[14.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_description/share/origincar_description/hook/cmake_prefix_path.ps1'
+[14.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_description/share/origincar_description/hook/cmake_prefix_path.dsv'
+[14.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_description/share/origincar_description/hook/cmake_prefix_path.sh'
+[14.994s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/bin'
+[14.995s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/lib/pkgconfig/origincar_description.pc'
+[14.998s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/lib/python3.8/site-packages'
+[15.000s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_description/bin'
+[15.003s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.ps1'
+[15.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_description/share/origincar_description/package.dsv'
+[15.018s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.sh'
+[15.025s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.bash'
+[15.033s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_description/share/origincar_description/package.zsh'
+[15.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_description/share/colcon-core/packages/origincar_description)
+[15.050s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/originbot_deeplearning/line_follower_perception' with build type 'ament_cmake'
+[15.053s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/originbot_deeplearning/line_follower_perception'
+[15.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/originbot_deeplearning/line_follower_perception -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/line_follower_perception
+[15.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/serial
+[15.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/serial -- -j4 -l4
+[22.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/serial -- -j4 -l4
+[23.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/serial
+[23.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[23.301s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial' for CMake module files
+[23.306s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial' for CMake config files
+[23.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[23.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[23.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[23.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/serial
+[23.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[23.333s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/lib'
+[23.336s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/bin'
+[23.336s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/lib/pkgconfig/serial.pc'
+[23.338s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/lib/python3.8/site-packages'
+[23.341s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/bin'
+[23.344s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.ps1'
+[23.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/serial/share/serial/package.dsv'
+[23.351s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.sh'
+[23.355s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.bash'
+[23.358s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.zsh'
+[23.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/serial/share/colcon-core/packages/serial)
+[23.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[23.547s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial' for CMake module files
+[23.551s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial' for CMake config files
+[23.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[23.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[23.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[23.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[23.569s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/lib'
+[23.570s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/bin'
+[23.570s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/lib/pkgconfig/serial.pc'
+[23.572s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/lib/python3.8/site-packages'
+[23.574s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/serial/bin'
+[23.577s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.ps1'
+[23.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/serial/share/serial/package.dsv'
+[23.593s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.sh'
+[23.597s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.bash'
+[23.602s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/serial/share/serial/package.zsh'
+[23.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/serial/share/colcon-core/packages/serial)
+[23.632s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev1_ws/src/origincar/origincar_abc' with build type 'ament_python'
+[23.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_abc', 'ament_prefix_path')
+[23.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_abc/share/origincar_abc/hook/ament_prefix_path.ps1'
+[23.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_abc/share/origincar_abc/hook/ament_prefix_path.dsv'
+[23.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_abc/share/origincar_abc/hook/ament_prefix_path.sh'
+[23.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.355s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev1_ws/src/origincar/origincar_abc'
+[26.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_msg -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_msg
+[26.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_msg -- -j4 -l4
+[26.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/3rdparty/ackermann_msgs-ros2 -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/ackermann_msgs
+[26.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/ackermann_msgs -- -j4 -l4
+[32.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/src/origincar/origincar_abc': PYTHONPATH=/root/dev1_ws/build/origincar_abc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/origincar_abc build --build-base /root/dev1_ws/build/origincar_abc/build install --record /root/dev1_ws/build/origincar_abc/install.log --install-scripts $base/lib/origincar_abc --single-version-externally-managed install_data
+[36.477s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc' for CMake module files
+[36.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/src/origincar/origincar_abc' returned '0': PYTHONPATH=/root/dev1_ws/build/origincar_abc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/origincar_abc build --build-base /root/dev1_ws/build/origincar_abc/build install --record /root/dev1_ws/build/origincar_abc/install.log --install-scripts $base/lib/origincar_abc --single-version-externally-managed install_data
+[36.484s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc' for CMake config files
+[36.488s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc/lib'
+[36.489s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc/bin'
+[36.490s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc/lib/pkgconfig/origincar_abc.pc'
+[36.492s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages'
+[36.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_abc', 'pythonpath')
+[36.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_abc/share/origincar_abc/hook/pythonpath.ps1'
+[36.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_abc/share/origincar_abc/hook/pythonpath.dsv'
+[36.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_abc/share/origincar_abc/hook/pythonpath.sh'
+[36.505s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_abc/bin'
+[36.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_abc)
+[36.510s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_abc/share/origincar_abc/package.ps1'
+[36.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_abc/share/origincar_abc/package.dsv'
+[36.521s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_abc/share/origincar_abc/package.sh'
+[36.525s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_abc/share/origincar_abc/package.bash'
+[36.529s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_abc/share/origincar_abc/package.zsh'
+[36.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_abc/share/colcon-core/packages/origincar_abc)
+[36.542s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/origincar_bringup' with build type 'ament_cmake'
+[36.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/origincar_bringup'
+[36.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_bringup -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_bringup
+[37.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/originbot_deeplearning/line_follower_perception -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/line_follower_perception
+[37.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/line_follower_perception -- -j4 -l4
+[45.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_bringup -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_bringup
+[45.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_bringup -- -j4 -l4
+[45.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_bringup -- -j4 -l4
+[46.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_bringup
+[46.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_bringup)
+[46.228s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup' for CMake module files
+[46.232s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup' for CMake config files
+[46.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_bringup', 'cmake_prefix_path')
+[46.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/hook/cmake_prefix_path.ps1'
+[46.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_bringup
+[46.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/hook/cmake_prefix_path.dsv'
+[46.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/hook/cmake_prefix_path.sh'
+[46.255s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/bin'
+[46.256s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/lib/pkgconfig/origincar_bringup.pc'
+[46.258s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/lib/python3.8/site-packages'
+[46.261s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/bin'
+[46.265s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.ps1'
+[46.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.dsv'
+[46.275s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.sh'
+[46.282s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.bash'
+[46.288s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.zsh'
+[46.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_bringup/share/colcon-core/packages/origincar_bringup)
+[46.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_bringup)
+[46.456s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup' for CMake module files
+[46.461s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup' for CMake config files
+[46.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_bringup', 'cmake_prefix_path')
+[46.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/hook/cmake_prefix_path.ps1'
+[46.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/hook/cmake_prefix_path.dsv'
+[46.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/hook/cmake_prefix_path.sh'
+[46.482s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/bin'
+[46.483s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/lib/pkgconfig/origincar_bringup.pc'
+[46.488s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/lib/python3.8/site-packages'
+[46.494s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_bringup/bin'
+[46.498s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.ps1'
+[46.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.dsv'
+[46.510s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.sh'
+[46.515s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.bash'
+[46.521s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.zsh'
+[46.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_bringup/share/colcon-core/packages/origincar_bringup)
+[46.541s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_control' with build type 'ament_python'
+[46.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_code_control', 'ament_prefix_path')
+[46.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_control/share/qr_code_control/hook/ament_prefix_path.ps1'
+[46.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/qr_code_control/share/qr_code_control/hook/ament_prefix_path.dsv'
+[46.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_control/share/qr_code_control/hook/ament_prefix_path.sh'
+[46.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[50.037s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_control'
+[50.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[50.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_control': PYTHONPATH=/root/dev1_ws/build/qr_code_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/qr_code_control build --build-base /root/dev1_ws/build/qr_code_control/build install --record /root/dev1_ws/build/qr_code_control/install.log --single-version-externally-managed install_data
+[58.965s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control' for CMake module files
+[58.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_control' returned '0': PYTHONPATH=/root/dev1_ws/build/qr_code_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/qr_code_control build --build-base /root/dev1_ws/build/qr_code_control/build install --record /root/dev1_ws/build/qr_code_control/install.log --single-version-externally-managed install_data
+[58.974s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control' for CMake config files
+[58.978s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control/lib'
+[58.979s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control/bin'
+[58.980s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control/lib/pkgconfig/qr_code_control.pc'
+[58.982s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages'
+[58.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_code_control', 'pythonpath')
+[58.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_control/share/qr_code_control/hook/pythonpath.ps1'
+[58.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/qr_code_control/share/qr_code_control/hook/pythonpath.dsv'
+[58.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_control/share/qr_code_control/hook/pythonpath.sh'
+[59.004s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_control/bin'
+[59.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qr_code_control)
+[59.008s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_control/share/qr_code_control/package.ps1'
+[59.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/qr_code_control/share/qr_code_control/package.dsv'
+[59.019s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_control/share/qr_code_control/package.sh'
+[59.025s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_control/share/qr_code_control/package.bash'
+[59.031s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_control/share/qr_code_control/package.zsh'
+[59.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/qr_code_control/share/colcon-core/packages/qr_code_control)
+[59.048s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection' with build type 'ament_python'
+[59.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_code_detection', 'ament_prefix_path')
+[59.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/hook/ament_prefix_path.ps1'
+[59.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/hook/ament_prefix_path.dsv'
+[59.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/hook/ament_prefix_path.sh'
+[59.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[59.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[62.471s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection'
+[62.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[62.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[67.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection': PYTHONPATH=/root/dev1_ws/build/qr_code_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/qr_code_detection build --build-base /root/dev1_ws/build/qr_code_detection/build install --record /root/dev1_ws/build/qr_code_detection/install.log --single-version-externally-managed install_data
+[72.363s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection' for CMake module files
+[72.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection' returned '0': PYTHONPATH=/root/dev1_ws/build/qr_code_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/qr_code_detection build --build-base /root/dev1_ws/build/qr_code_detection/build install --record /root/dev1_ws/build/qr_code_detection/install.log --single-version-externally-managed install_data
+[72.371s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection' for CMake config files
+[72.376s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection/lib'
+[72.377s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection/bin'
+[72.378s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection/lib/pkgconfig/qr_code_detection.pc'
+[72.381s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages'
+[72.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('qr_code_detection', 'pythonpath')
+[72.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/hook/pythonpath.ps1'
+[72.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/hook/pythonpath.dsv'
+[72.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/hook/pythonpath.sh'
+[72.404s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/qr_code_detection/bin'
+[72.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qr_code_detection)
+[72.408s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/package.ps1'
+[72.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/package.dsv'
+[72.421s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/package.sh'
+[72.431s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/package.bash'
+[72.440s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/qr_code_detection/share/qr_code_detection/package.zsh'
+[72.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/qr_code_detection/share/colcon-core/packages/qr_code_detection)
+[72.463s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev1_ws/src/origincar/3rdparty/tf2_tools' with build type 'ament_python'
+[72.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_tools', 'ament_prefix_path')
+[72.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/tf2_tools/share/tf2_tools/hook/ament_prefix_path.ps1'
+[72.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/tf2_tools/share/tf2_tools/hook/ament_prefix_path.dsv'
+[72.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/tf2_tools/share/tf2_tools/hook/ament_prefix_path.sh'
+[72.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[72.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[75.880s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev1_ws/src/origincar/3rdparty/tf2_tools'
+[75.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[75.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[81.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/src/origincar/3rdparty/tf2_tools': PYTHONPATH=/root/dev1_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev1_ws/build/tf2_tools/build install --record /root/dev1_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[85.429s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools' for CMake module files
+[85.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/src/origincar/3rdparty/tf2_tools' returned '0': PYTHONPATH=/root/dev1_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev1_ws/build/tf2_tools/build install --record /root/dev1_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[85.435s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools' for CMake config files
+[85.440s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools/lib'
+[85.441s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools/bin'
+[85.442s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools/lib/pkgconfig/tf2_tools.pc'
+[85.444s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages'
+[85.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_tools', 'pythonpath')
+[85.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/tf2_tools/share/tf2_tools/hook/pythonpath.ps1'
+[85.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/tf2_tools/share/tf2_tools/hook/pythonpath.dsv'
+[85.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/tf2_tools/share/tf2_tools/hook/pythonpath.sh'
+[85.463s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/tf2_tools/bin'
+[85.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_tools)
+[85.467s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/tf2_tools/share/tf2_tools/package.ps1'
+[85.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/tf2_tools/share/tf2_tools/package.dsv'
+[85.478s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/tf2_tools/share/tf2_tools/package.sh'
+[85.484s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/tf2_tools/share/tf2_tools/package.bash'
+[85.489s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/tf2_tools/share/tf2_tools/package.zsh'
+[85.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/tf2_tools/share/colcon-core/packages/tf2_tools)
+[85.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/utils' with build type 'ament_cmake'
+[85.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/utils'
+[85.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[85.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[85.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/utils -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/utils
+[97.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_msg -- -j4 -l4
+[97.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_msg
+[98.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_msg)
+[98.578s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg' for CMake module files
+[98.583s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg' for CMake config files
+[98.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'cmake_prefix_path')
+[98.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.ps1'
+[98.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.dsv'
+[98.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.sh'
+[98.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_msg
+[98.628s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/lib'
+[98.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'ld_library_path_lib')
+[98.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.ps1'
+[98.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.dsv'
+[98.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.sh'
+[98.642s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/bin'
+[98.643s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/lib/pkgconfig/origincar_msg.pc'
+[98.645s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages'
+[98.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'pythonpath')
+[98.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/pythonpath.ps1'
+[98.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/pythonpath.dsv'
+[98.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/pythonpath.sh'
+[98.659s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/bin'
+[98.663s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.ps1'
+[98.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.dsv'
+[98.673s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.sh'
+[98.678s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.bash'
+[98.681s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.zsh'
+[98.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_msg/share/colcon-core/packages/origincar_msg)
+[99.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_msg)
+[99.171s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg' for CMake module files
+[99.177s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg' for CMake config files
+[99.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'cmake_prefix_path')
+[99.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.ps1'
+[99.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.dsv'
+[99.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.sh'
+[99.197s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/lib'
+[99.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'ld_library_path_lib')
+[99.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.ps1'
+[99.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.dsv'
+[99.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.sh'
+[99.219s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/bin'
+[99.220s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/lib/pkgconfig/origincar_msg.pc'
+[99.223s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages'
+[99.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'pythonpath')
+[99.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/pythonpath.ps1'
+[99.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/pythonpath.dsv'
+[99.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_msg/share/origincar_msg/hook/pythonpath.sh'
+[99.241s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_msg/bin'
+[99.246s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.ps1'
+[99.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.dsv'
+[99.261s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.sh'
+[99.267s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.bash'
+[99.274s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_msg/share/origincar_msg/package.zsh'
+[99.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_msg/share/colcon-core/packages/origincar_msg)
+[101.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/utils -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/utils
+[101.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/utils -- -j4 -l4
+[109.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/ackermann_msgs -- -j4 -l4
+[109.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/ackermann_msgs
+[110.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[110.447s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs' for CMake module files
+[110.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/ackermann_msgs
+[110.467s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs' for CMake config files
+[110.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[110.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[110.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[110.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[110.485s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/lib'
+[110.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[110.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[110.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[110.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[110.499s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/bin'
+[110.500s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[110.502s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages'
+[110.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'pythonpath')
+[110.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/pythonpath.ps1'
+[110.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/pythonpath.dsv'
+[110.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/pythonpath.sh'
+[110.516s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/bin'
+[110.520s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[110.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[110.530s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[110.535s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[110.538s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[110.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[110.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[110.871s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs' for CMake module files
+[110.877s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs' for CMake config files
+[110.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[110.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[110.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[110.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[110.895s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/lib'
+[110.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[110.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[110.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[110.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[110.909s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/bin'
+[110.910s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[110.912s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages'
+[110.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'pythonpath')
+[110.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/pythonpath.ps1'
+[110.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/pythonpath.dsv'
+[110.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/hook/pythonpath.sh'
+[110.927s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/ackermann_msgs/bin'
+[110.931s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[110.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[110.942s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[110.949s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[110.953s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[110.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[110.961s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/dev1_ws/src/origincar/origincar_base' with build type 'ament_cmake'
+[110.962s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/dev1_ws/src/origincar/origincar_base'
+[110.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[110.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[111.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_base': CMAKE_PREFIX_PATH=/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/ackermann_msgs:/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/dnn_node:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/dnn_node/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_base -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_base
+[127.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/line_follower_perception -- -j4 -l4
+[127.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/line_follower_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/line_follower_perception
+[127.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_perception)
+[127.441s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception' for CMake module files
+[127.446s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception' for CMake config files
+[127.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/line_follower_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/line_follower_perception
+[127.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_perception', 'cmake_prefix_path')
+[127.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/hook/cmake_prefix_path.ps1'
+[127.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/hook/cmake_prefix_path.dsv'
+[127.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/hook/cmake_prefix_path.sh'
+[127.469s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/lib'
+[127.470s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/bin'
+[127.471s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/lib/pkgconfig/line_follower_perception.pc'
+[127.473s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/lib/python3.8/site-packages'
+[127.475s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/bin'
+[127.478s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.ps1'
+[127.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.dsv'
+[127.486s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.sh'
+[127.491s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.bash'
+[127.494s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.zsh'
+[127.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/line_follower_perception/share/colcon-core/packages/line_follower_perception)
+[127.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_perception)
+[127.631s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception' for CMake module files
+[127.638s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception' for CMake config files
+[127.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_perception', 'cmake_prefix_path')
+[127.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/hook/cmake_prefix_path.ps1'
+[127.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/hook/cmake_prefix_path.dsv'
+[127.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/hook/cmake_prefix_path.sh'
+[127.667s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/lib'
+[127.669s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/bin'
+[127.670s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/lib/pkgconfig/line_follower_perception.pc'
+[127.674s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/lib/python3.8/site-packages'
+[127.677s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/line_follower_perception/bin'
+[127.681s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.ps1'
+[127.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.dsv'
+[127.699s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.sh'
+[127.711s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.bash'
+[127.724s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/line_follower_perception/share/line_follower_perception/package.zsh'
+[127.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/line_follower_perception/share/colcon-core/packages/line_follower_perception)
+[139.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_base' returned '0': CMAKE_PREFIX_PATH=/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/ackermann_msgs:/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/dnn_node:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/dnn_node/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_base -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_base
+[139.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_base': CMAKE_PREFIX_PATH=/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/ackermann_msgs:/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/dnn_node:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/dnn_node/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/dev1_ws/build/origincar_base -- -j4 -l4
+[172.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/utils -- -j4 -l4
+[172.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/utils
+[173.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(utils)
+[173.084s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils' for CMake module files
+[173.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/utils
+[173.091s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils' for CMake config files
+[173.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'cmake_prefix_path')
+[173.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/utils/share/utils/hook/cmake_prefix_path.ps1'
+[173.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/utils/share/utils/hook/cmake_prefix_path.dsv'
+[173.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/utils/share/utils/hook/cmake_prefix_path.sh'
+[173.104s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/lib'
+[173.105s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/bin'
+[173.105s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/lib/pkgconfig/utils.pc'
+[173.107s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/lib/python3.8/site-packages'
+[173.109s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/bin'
+[173.111s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.ps1'
+[173.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/utils/share/utils/package.dsv'
+[173.118s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.sh'
+[173.121s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.bash'
+[173.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.zsh'
+[173.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/utils/share/colcon-core/packages/utils)
+[173.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(utils)
+[173.241s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils' for CMake module files
+[173.245s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils' for CMake config files
+[173.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'cmake_prefix_path')
+[173.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/utils/share/utils/hook/cmake_prefix_path.ps1'
+[173.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/utils/share/utils/hook/cmake_prefix_path.dsv'
+[173.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/utils/share/utils/hook/cmake_prefix_path.sh'
+[173.260s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/lib'
+[173.261s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/bin'
+[173.261s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/lib/pkgconfig/utils.pc'
+[173.263s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/lib/python3.8/site-packages'
+[173.265s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/utils/bin'
+[173.268s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.ps1'
+[173.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/utils/share/utils/package.dsv'
+[173.276s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.sh'
+[173.280s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.bash'
+[173.283s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/utils/share/utils/package.zsh'
+[173.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/utils/share/colcon-core/packages/utils)
+[307.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_base' returned '0': CMAKE_PREFIX_PATH=/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/ackermann_msgs:/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/dnn_node:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/dnn_node/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /root/dev1_ws/build/origincar_base -- -j4 -l4
+[307.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/dev1_ws/build/origincar_base': CMAKE_PREFIX_PATH=/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/ackermann_msgs:/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/dnn_node:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/dnn_node/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/dev1_ws/build/origincar_base
+[308.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_base)
+[308.044s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base' for CMake module files
+[308.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/dev1_ws/build/origincar_base' returned '0': CMAKE_PREFIX_PATH=/root/dev1_ws/install/serial:/root/dev1_ws/install/origincar_msg:/root/dev1_ws/install/origincar_description:/root/dev1_ws/install/ackermann_msgs:/root/dev1_ws/install/utils:/root/dev1_ws/install/origincar_base:/root/dev1_ws/install/origincar_bringup:/root/dev1_ws/install/line_follower_perception:/root/dev1_ws/install/dnn_node:/root/dev_ws/install/ydlidar_ros2_driver:/root/dev_ws/install/utils:/root/dev_ws/install/take_pictures_node:/root/dev_ws/install/originbot_base:/root/dev_ws/install/serial:/root/dev_ws/install/send_goal:/root/dev_ws/install/play_football:/root/dev_ws/install/parking_search:/root/dev_ws/install/originbot_teleop:/root/dev_ws/install/originbot_navigation:/root/dev_ws/install/originbot_msgs:/root/dev_ws/install/originbot_bringup:/root/dev_ws/install/originbot_autonomous:/root/dev_ws/install/line_follower_perception:/root/dev_ws/install/gesture_control:/root/dev_ws/install/body_tracking:/opt/tros:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev1_ws/install/origincar_msg/lib:/root/dev1_ws/install/ackermann_msgs/lib:/root/dev1_ws/install/origincar_base/lib:/root/dev1_ws/install/serial/lib:/root/dev1_ws/install/dnn_node/lib:/root/dev_ws/install/serial/lib:/root/dev_ws/install/originbot_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/root/dev1_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev1_ws/install/ackermann_msgs/lib/python3.8/site-packages:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev1_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages:/root/dev_ws/install/vlpr/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_detection/lib/python3.8/site-packages:/root/dev_ws/install/qr_code_control/lib/python3.8/site-packages:/root/dev_ws/install/originbot_linefollower/lib/python3.8/site-packages:/root/dev_ws/install/originbot_demo/lib/python3.8/site-packages:/root/dev_ws/install/originbot_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /root/dev1_ws/build/origincar_base
+[308.057s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base' for CMake config files
+[308.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_base', 'cmake_prefix_path')
+[308.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/cmake_prefix_path.ps1'
+[308.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/cmake_prefix_path.dsv'
+[308.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/cmake_prefix_path.sh'
+[308.073s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/lib'
+[308.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_base', 'ld_library_path_lib')
+[308.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/ld_library_path_lib.ps1'
+[308.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/ld_library_path_lib.dsv'
+[308.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/ld_library_path_lib.sh'
+[308.085s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/bin'
+[308.086s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/lib/pkgconfig/origincar_base.pc'
+[308.087s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages'
+[308.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_base', 'pythonpath')
+[308.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/pythonpath.ps1'
+[308.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/pythonpath.dsv'
+[308.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/pythonpath.sh'
+[308.101s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/bin'
+[308.105s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.ps1'
+[308.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/package.dsv'
+[308.115s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.sh'
+[308.118s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.bash'
+[308.121s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.zsh'
+[308.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_base/share/colcon-core/packages/origincar_base)
+[308.356s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_base)
+[308.359s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base' for CMake module files
+[308.363s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base' for CMake config files
+[308.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_base', 'cmake_prefix_path')
+[308.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/cmake_prefix_path.ps1'
+[308.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/cmake_prefix_path.dsv'
+[308.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/cmake_prefix_path.sh'
+[308.376s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/lib'
+[308.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_base', 'ld_library_path_lib')
+[308.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/ld_library_path_lib.ps1'
+[308.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/ld_library_path_lib.dsv'
+[308.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/ld_library_path_lib.sh'
+[308.386s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/bin'
+[308.386s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/lib/pkgconfig/origincar_base.pc'
+[308.388s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/lib/python3.8/site-packages'
+[308.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_base', 'pythonpath')
+[308.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/pythonpath.ps1'
+[308.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/pythonpath.dsv'
+[308.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev1_ws/install/origincar_base/share/origincar_base/hook/pythonpath.sh'
+[308.400s] Level 1:colcon.colcon_core.environment:checking '/root/dev1_ws/install/origincar_base/bin'
+[308.403s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.ps1'
+[308.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/dev1_ws/install/origincar_base/share/origincar_base/package.dsv'
+[308.412s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.sh'
+[308.418s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.bash'
+[308.421s] INFO:colcon.colcon_core.shell:Creating package script '/root/dev1_ws/install/origincar_base/share/origincar_base/package.zsh'
+[308.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/dev1_ws/install/origincar_base/share/colcon-core/packages/origincar_base)
+[308.425s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[308.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[308.428s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[308.428s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[308.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[308.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[308.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[308.464s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[308.467s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[308.468s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[308.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev1_ws/install/local_setup.ps1'
+[308.476s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev1_ws/install/_local_setup_util_ps1.py'
+[308.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev1_ws/install/setup.ps1'
+[308.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev1_ws/install/local_setup.sh'
+[308.506s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev1_ws/install/_local_setup_util_sh.py'
+[308.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev1_ws/install/setup.sh'
+[308.526s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev1_ws/install/local_setup.bash'
+[308.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev1_ws/install/setup.bash'
+[308.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev1_ws/install/local_setup.zsh'
+[308.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev1_ws/install/setup.zsh'

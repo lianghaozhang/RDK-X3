@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing origincar_abc.egg-info/PKG-INFO
+writing dependency_links to origincar_abc.egg-info/dependency_links.txt
+writing entry points to origincar_abc.egg-info/entry_points.txt
+writing requirements to origincar_abc.egg-info/requires.txt
+writing top-level names to origincar_abc.egg-info/top_level.txt
+reading manifest file 'origincar_abc.egg-info/SOURCES.txt'
+writing manifest file 'origincar_abc.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar-abc.egg-link (link to .)
+Installing foxglove script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc
+Installing test_node script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc
+
+Installed /root/dev1_ws/build/origincar_abc
+running symlink_data
+symbolically linking /root/dev1_ws/build/origincar_abc/resource/origincar_abc -> /root/dev1_ws/install/origincar_abc/share/ament_index/resource_index/packages
+symbolically linking /root/dev1_ws/build/origincar_abc/package.xml -> /root/dev1_ws/install/origincar_abc/share/origincar_abc
+symbolically linking /root/dev1_ws/build/origincar_abc/launch/yolov5.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch
+symbolically linking /root/dev1_ws/build/origincar_abc/launch/base_cam_qrcode.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch

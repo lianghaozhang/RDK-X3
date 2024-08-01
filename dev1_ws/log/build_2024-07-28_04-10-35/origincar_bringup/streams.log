@@ -1,0 +1,40 @@
+[0.251s] Invoking command in '/root/dev1_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_bringup
+[0.466s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[1.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.629s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.737s] -- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+[6.190s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.209s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.214s] -- Added test 'lint_cmake' to check CMake code style
+[6.219s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.230s] -- Added test 'xmllint' to check XML markup files
+[6.263s] -- Configuring done
+[6.314s] -- Generating done
+[6.318s] -- Build files have been written to: /root/dev1_ws/build/origincar_bringup
+[6.355s] Invoked command in '/root/dev1_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev1_ws/src/origincar/origincar_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev1_ws/install/origincar_bringup
+[6.382s] Invoking command in '/root/dev1_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_bringup -- -j4 -l4
+[6.909s] Invoked command in '/root/dev1_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/origincar_bringup -- -j4 -l4
+[7.333s] Invoking command in '/root/dev1_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_bringup
+[7.472s] -- Install configuration: ""
+[7.476s] -- Up-to-date: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch
+[7.477s] -- Up-to-date: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/__pycache__
+[7.478s] -- Installing: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/__pycache__/usb.launch.cpython-38.pyc
+[7.488s] -- Installing: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/usb.launch.py
+[7.489s] -- Up-to-date: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+[7.496s] -- Execute custom install script
+[7.500s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+[7.592s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+[7.714s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+[7.832s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+[7.954s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+[8.053s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+[8.169s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+[8.252s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+[8.331s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+[8.415s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+[8.501s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.dsv
+[8.594s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+[8.692s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+[8.771s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+[8.885s] -- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.xml
+[9.039s] Invoked command in '/root/dev1_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/origincar_bringup

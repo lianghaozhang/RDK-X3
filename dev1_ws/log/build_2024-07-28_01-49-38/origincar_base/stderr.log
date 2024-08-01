@@ -1,0 +1,4 @@
+[01m[K/root/dev1_ws/src/origincar/origincar_base/src/foxglove.cpp:[m[K In lambda function:
+[01m[K/root/dev1_ws/src/origincar/origincar_base/src/foxglove.cpp:117:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  117 |             [this]([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K)
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

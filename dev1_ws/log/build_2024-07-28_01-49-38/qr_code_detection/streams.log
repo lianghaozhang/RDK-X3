@@ -1,0 +1,47 @@
+[8.623s] Invoking command in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection': PYTHONPATH=/root/dev1_ws/build/qr_code_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/qr_code_detection build --build-base /root/dev1_ws/build/qr_code_detection/build install --record /root/dev1_ws/build/qr_code_detection/install.log --single-version-externally-managed install_data
+[12.137s] running egg_info
+[12.145s] creating ../../../../build/qr_code_detection/qr_code_detection.egg-info
+[12.149s] writing ../../../../build/qr_code_detection/qr_code_detection.egg-info/PKG-INFO
+[12.153s] writing dependency_links to ../../../../build/qr_code_detection/qr_code_detection.egg-info/dependency_links.txt
+[12.162s] writing entry points to ../../../../build/qr_code_detection/qr_code_detection.egg-info/entry_points.txt
+[12.168s] writing requirements to ../../../../build/qr_code_detection/qr_code_detection.egg-info/requires.txt
+[12.171s] writing top-level names to ../../../../build/qr_code_detection/qr_code_detection.egg-info/top_level.txt
+[12.193s] writing manifest file '../../../../build/qr_code_detection/qr_code_detection.egg-info/SOURCES.txt'
+[12.600s] reading manifest file '../../../../build/qr_code_detection/qr_code_detection.egg-info/SOURCES.txt'
+[12.610s] writing manifest file '../../../../build/qr_code_detection/qr_code_detection.egg-info/SOURCES.txt'
+[12.614s] running build
+[12.616s] running build_py
+[12.619s] creating /root/dev1_ws/build/qr_code_detection/build
+[12.621s] creating /root/dev1_ws/build/qr_code_detection/build/lib
+[12.624s] creating /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+[12.626s] copying qr_code_detection/__init__.py -> /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+[12.629s] copying qr_code_detection/qr_detection_node.py -> /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+[12.634s] copying qr_code_detection/restart_base_camare.py -> /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+[12.639s] running install
+[12.648s] running install_lib
+[12.659s] creating /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+[12.661s] copying /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection/__init__.py -> /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+[12.665s] copying /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection/qr_detection_node.py -> /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+[12.675s] copying /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection/restart_base_camare.py -> /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+[12.683s] byte-compiling /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection/__init__.py to __init__.cpython-38.pyc
+[12.710s] byte-compiling /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection/qr_detection_node.py to qr_detection_node.cpython-38.pyc
+[12.720s] byte-compiling /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection/restart_base_camare.py to restart_base_camare.cpython-38.pyc
+[12.732s] running install_data
+[12.735s] creating /root/dev1_ws/install/qr_code_detection/share/ament_index
+[12.740s] creating /root/dev1_ws/install/qr_code_detection/share/ament_index/resource_index
+[12.742s] creating /root/dev1_ws/install/qr_code_detection/share/ament_index/resource_index/packages
+[12.748s] copying resource/qr_code_detection -> /root/dev1_ws/install/qr_code_detection/share/ament_index/resource_index/packages
+[12.756s] copying package.xml -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection
+[12.759s] copying launch/qr_code_detection.launch.py -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection
+[12.765s] creating /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+[12.773s] copying model/detect.caffemodel -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+[12.798s] copying model/sr.caffemodel -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+[12.808s] copying model/sr.prototxt -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+[12.815s] copying model/detect.prototxt -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+[12.827s] running install_egg_info
+[12.846s] Copying ../../../../build/qr_code_detection/qr_code_detection.egg-info to /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection-0.0.0-py3.8.egg-info
+[12.858s] running install_scripts
+[13.059s] Installing close_node script to /root/dev1_ws/install/qr_code_detection/lib/qr_code_detection
+[13.062s] Installing qr_detection_node script to /root/dev1_ws/install/qr_code_detection/lib/qr_code_detection
+[13.070s] writing list of installed files to '/root/dev1_ws/build/qr_code_detection/install.log'
+[13.316s] Invoked command in '/root/dev1_ws/src/origincar/originbot_qr_code/qr_code_detection' returned '0': PYTHONPATH=/root/dev1_ws/build/qr_code_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/qr_code_detection build --build-base /root/dev1_ws/build/qr_code_detection/build install --record /root/dev1_ws/build/qr_code_detection/install.log --single-version-externally-managed install_data

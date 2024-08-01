@@ -1,0 +1,37 @@
+[8.388s] Invoking command in '/root/dev_ws/src/origincar/3rdparty/tf2_tools': PYTHONPATH=/root/dev_ws/src/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tf2_tools build --build-base /root/dev_ws/src/build/tf2_tools/build install --record /root/dev_ws/src/build/tf2_tools/install.log --single-version-externally-managed install_data
+[10.957s] running egg_info
+[10.958s] creating ../../../build/tf2_tools/tf2_tools.egg-info
+[10.961s] writing ../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+[10.964s] writing dependency_links to ../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+[10.967s] writing entry points to ../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+[10.969s] writing requirements to ../../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+[10.971s] writing top-level names to ../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+[10.987s] writing manifest file '../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[11.346s] reading manifest file '../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[11.353s] writing manifest file '../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[11.355s] running build
+[11.357s] running build_py
+[11.360s] creating /root/dev_ws/src/build/tf2_tools/build
+[11.362s] creating /root/dev_ws/src/build/tf2_tools/build/lib
+[11.364s] creating /root/dev_ws/src/build/tf2_tools/build/lib/tf2_tools
+[11.366s] copying tf2_tools/view_frames.py -> /root/dev_ws/src/build/tf2_tools/build/lib/tf2_tools
+[11.369s] copying tf2_tools/__init__.py -> /root/dev_ws/src/build/tf2_tools/build/lib/tf2_tools
+[11.372s] running install
+[11.379s] running install_lib
+[11.388s] creating /root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[11.390s] copying /root/dev_ws/src/build/tf2_tools/build/lib/tf2_tools/view_frames.py -> /root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[11.393s] copying /root/dev_ws/src/build/tf2_tools/build/lib/tf2_tools/__init__.py -> /root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[11.401s] byte-compiling /root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/view_frames.py to view_frames.cpython-38.pyc
+[11.416s] byte-compiling /root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/__init__.py to __init__.cpython-38.pyc
+[11.419s] running install_data
+[11.422s] creating /root/dev_ws/src/install/tf2_tools/share/ament_index
+[11.424s] creating /root/dev_ws/src/install/tf2_tools/share/ament_index/resource_index
+[11.426s] creating /root/dev_ws/src/install/tf2_tools/share/ament_index/resource_index/packages
+[11.428s] copying resource/tf2_tools -> /root/dev_ws/src/install/tf2_tools/share/ament_index/resource_index/packages
+[11.430s] copying package.xml -> /root/dev_ws/src/install/tf2_tools/share/tf2_tools
+[11.433s] running install_egg_info
+[11.446s] Copying ../../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info
+[11.457s] running install_scripts
+[11.621s] Installing view_frames script to /root/dev_ws/src/install/tf2_tools/lib/tf2_tools
+[11.626s] writing list of installed files to '/root/dev_ws/src/build/tf2_tools/install.log'
+[11.847s] Invoked command in '/root/dev_ws/src/origincar/3rdparty/tf2_tools' returned '0': PYTHONPATH=/root/dev_ws/src/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev_ws/src/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tf2_tools build --build-base /root/dev_ws/src/build/tf2_tools/build install --record /root/dev_ws/src/build/tf2_tools/install.log --single-version-externally-managed install_data

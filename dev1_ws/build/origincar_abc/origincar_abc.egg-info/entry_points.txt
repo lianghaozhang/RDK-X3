@@ -1,0 +1,4 @@
+[console_scripts]
+foxglove = origincar_abc.foxglove:main
+test_node = origincar_abc.test:main
+

@@ -1,0 +1,50 @@
+[0.128s] Invoking command in '/root/dev_ws/src/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/src/origincar/origincar_bringup -DCMAKE_INSTALL_PREFIX=/root/dev_ws/src/install/origincar_bringup
+[0.781s] -- The C compiler identification is GNU 9.4.0
+[1.528s] -- The CXX compiler identification is GNU 9.4.0
+[1.603s] -- Check for working C compiler: /usr/bin/cc
+[2.399s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.400s] -- Detecting C compiler ABI info
+[3.275s] -- Detecting C compiler ABI info - done
+[3.436s] -- Detecting C compile features
+[3.442s] -- Detecting C compile features - done
+[3.485s] -- Check for working CXX compiler: /usr/bin/c++
+[4.835s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.860s] -- Detecting CXX compiler ABI info
+[8.015s] -- Detecting CXX compiler ABI info - done
+[8.414s] -- Detecting CXX compile features
+[8.425s] -- Detecting CXX compile features - done
+[8.529s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[8.788s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.790s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.461s] -- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+[15.840s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.859s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.873s] -- Added test 'lint_cmake' to check CMake code style
+[15.887s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[15.899s] -- Added test 'xmllint' to check XML markup files
+[15.927s] -- Configuring done
+[15.959s] -- Generating done
+[15.973s] -- Build files have been written to: /root/dev_ws/src/build/origincar_bringup
+[16.024s] Invoked command in '/root/dev_ws/src/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/src/origincar/origincar_bringup -DCMAKE_INSTALL_PREFIX=/root/dev_ws/src/install/origincar_bringup
+[16.043s] Invoking command in '/root/dev_ws/src/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/src/build/origincar_bringup -- -j4 -l4
+[16.569s] Invoked command in '/root/dev_ws/src/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/src/build/origincar_bringup -- -j4 -l4
+[16.898s] Invoking command in '/root/dev_ws/src/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/src/build/origincar_bringup
+[17.026s] -- Install configuration: ""
+[17.028s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/launch
+[17.029s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+[17.031s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+[17.033s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+[17.035s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+[17.036s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+[17.039s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+[17.040s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+[17.041s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+[17.048s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+[17.049s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+[17.051s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+[17.055s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/package.dsv
+[17.057s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+[17.058s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+[17.065s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+[17.072s] -- Installing: /root/dev_ws/src/install/origincar_bringup/share/origincar_bringup/package.xml
+[17.074s] Invoked command in '/root/dev_ws/src/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev_ws/install/tf2_tools:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/src/build/origincar_bringup

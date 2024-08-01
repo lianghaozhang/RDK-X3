@@ -1,0 +1,3 @@
+[submodule "dev1_ws/src/origincar/hobot_dnn"]
+	path = dev1_ws/src/origincar/hobot_dnn
+	url = https://github.com/HorizonRDK/hobot_dnn.git

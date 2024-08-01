@@ -1,0 +1,26 @@
+[0.156s] Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/utils -- -j4 -l4
+[0.421s] [35m[1mScanning dependencies of target image_transport_node[0m
+[0.622s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport_node.dir/src/image_transport_node.cpp.o[0m
+[53.732s] [100%] [32m[1mLinking CXX executable image_transport_node[0m
+[60.258s] [100%] Built target image_transport_node
+[60.316s] Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev1_ws/build/utils -- -j4 -l4
+[60.492s] Invoking command in '/root/dev1_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/utils
+[60.544s] -- Install configuration: ""
+[60.546s] -- Installing: /root/dev1_ws/install/utils/lib/utils/image_transport_node
+[60.570s] -- Set runtime path of "/root/dev1_ws/install/utils/lib/utils/image_transport_node" to ""
+[60.571s] -- Up-to-date: /root/dev1_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[60.574s] -- Up-to-date: /root/dev1_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[60.575s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+[60.576s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+[60.577s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/environment/path.sh
+[60.578s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/environment/path.dsv
+[60.579s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/local_setup.bash
+[60.580s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/local_setup.sh
+[60.581s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/local_setup.zsh
+[60.588s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/local_setup.dsv
+[60.589s] -- Installing: /root/dev1_ws/install/utils/share/utils/package.dsv
+[60.590s] -- Up-to-date: /root/dev1_ws/install/utils/share/ament_index/resource_index/packages/utils
+[60.592s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+[60.593s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[60.594s] -- Up-to-date: /root/dev1_ws/install/utils/share/utils/package.xml
+[60.599s] Invoked command in '/root/dev1_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/dev1_ws/install/tf2_tools:/root/dev1_ws/install/qr_code_detection:/root/dev1_ws/install/qr_code_control:/root/dev1_ws/install/origincar_abc:/root/dev_ws/install/vlpr:/root/dev_ws/install/qr_code_detection:/root/dev_ws/install/qr_code_control:/root/dev_ws/install/originbot_linefollower:/root/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev1_ws/build/utils

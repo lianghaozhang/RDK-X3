@@ -1,0 +1,16 @@
+/root/dev_ws/src/install/line_follower_perception/lib/line_follower_perception/line_follower_perception
+/root/dev_ws/src/install/line_follower_perception/share/ament_index/resource_index/package_run_dependencies/line_follower_perception
+/root/dev_ws/src/install/line_follower_perception/share/ament_index/resource_index/parent_prefix_path/line_follower_perception
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.sh
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/environment/ament_prefix_path.dsv
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/environment/path.sh
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/environment/path.dsv
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/local_setup.bash
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/local_setup.sh
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/local_setup.zsh
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/local_setup.dsv
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/package.dsv
+/root/dev_ws/src/install/line_follower_perception/share/ament_index/resource_index/packages/line_follower_perception
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig.cmake
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/cmake/line_follower_perceptionConfig-version.cmake
+/root/dev_ws/src/install/line_follower_perception/share/line_follower_perception/package.xml

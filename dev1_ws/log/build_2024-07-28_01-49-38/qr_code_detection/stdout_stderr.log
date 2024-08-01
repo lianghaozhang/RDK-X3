@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../../build/qr_code_detection/qr_code_detection.egg-info
+writing ../../../../build/qr_code_detection/qr_code_detection.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/qr_code_detection/qr_code_detection.egg-info/dependency_links.txt
+writing entry points to ../../../../build/qr_code_detection/qr_code_detection.egg-info/entry_points.txt
+writing requirements to ../../../../build/qr_code_detection/qr_code_detection.egg-info/requires.txt
+writing top-level names to ../../../../build/qr_code_detection/qr_code_detection.egg-info/top_level.txt
+writing manifest file '../../../../build/qr_code_detection/qr_code_detection.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/qr_code_detection/qr_code_detection.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/qr_code_detection/qr_code_detection.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/dev1_ws/build/qr_code_detection/build
+creating /root/dev1_ws/build/qr_code_detection/build/lib
+creating /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+copying qr_code_detection/__init__.py -> /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+copying qr_code_detection/qr_detection_node.py -> /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+copying qr_code_detection/restart_base_camare.py -> /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection
+running install
+running install_lib
+creating /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+copying /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection/__init__.py -> /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+copying /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection/qr_detection_node.py -> /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+copying /root/dev1_ws/build/qr_code_detection/build/lib/qr_code_detection/restart_base_camare.py -> /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection
+byte-compiling /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection/qr_detection_node.py to qr_detection_node.cpython-38.pyc
+byte-compiling /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection/restart_base_camare.py to restart_base_camare.cpython-38.pyc
+running install_data
+creating /root/dev1_ws/install/qr_code_detection/share/ament_index
+creating /root/dev1_ws/install/qr_code_detection/share/ament_index/resource_index
+creating /root/dev1_ws/install/qr_code_detection/share/ament_index/resource_index/packages
+copying resource/qr_code_detection -> /root/dev1_ws/install/qr_code_detection/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection
+copying launch/qr_code_detection.launch.py -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection
+creating /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+copying model/detect.caffemodel -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+copying model/sr.caffemodel -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+copying model/sr.prototxt -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+copying model/detect.prototxt -> /root/dev1_ws/install/qr_code_detection/share/qr_code_detection/model
+running install_egg_info
+Copying ../../../../build/qr_code_detection/qr_code_detection.egg-info to /root/dev1_ws/install/qr_code_detection/lib/python3.8/site-packages/qr_code_detection-0.0.0-py3.8.egg-info
+running install_scripts
+Installing close_node script to /root/dev1_ws/install/qr_code_detection/lib/qr_code_detection
+Installing qr_detection_node script to /root/dev1_ws/install/qr_code_detection/lib/qr_code_detection
+writing list of installed files to '/root/dev1_ws/build/qr_code_detection/install.log'

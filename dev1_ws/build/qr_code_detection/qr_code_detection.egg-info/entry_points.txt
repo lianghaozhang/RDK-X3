@@ -1,0 +1,4 @@
+[console_scripts]
+close_node = qr_code_detection.restart_base_camare:main
+qr_detection_node = qr_code_detection.qr_detection_node:main
+

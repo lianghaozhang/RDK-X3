@@ -1,0 +1,3 @@
+[console_scripts]
+qr_code_control_node = qr_code_control.qr_code_control_node:main
+

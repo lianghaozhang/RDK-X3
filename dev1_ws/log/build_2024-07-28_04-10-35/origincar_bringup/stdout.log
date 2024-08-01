@@ -1,0 +1,34 @@
+-- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dev1_ws/build/origincar_bringup
+-- Install configuration: ""
+-- Up-to-date: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch
+-- Up-to-date: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/__pycache__
+-- Installing: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/__pycache__/usb.launch.cpython-38.pyc
+-- Installing: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/usb.launch.py
+-- Up-to-date: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+-- Execute custom install script
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.dsv
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+-- Symlinking: /root/dev1_ws/install/origincar_bringup/share/origincar_bringup/package.xml

@@ -1,0 +1,33 @@
+running develop
+Removing /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar-abc.egg-link (link to .)
+running egg_info
+writing ../../../build/origincar_abc/origincar_abc.egg-info/PKG-INFO
+writing dependency_links to ../../../build/origincar_abc/origincar_abc.egg-info/dependency_links.txt
+writing entry points to ../../../build/origincar_abc/origincar_abc.egg-info/entry_points.txt
+writing requirements to ../../../build/origincar_abc/origincar_abc.egg-info/requires.txt
+writing top-level names to ../../../build/origincar_abc/origincar_abc.egg-info/top_level.txt
+reading manifest file '../../../build/origincar_abc/origincar_abc.egg-info/SOURCES.txt'
+writing manifest file '../../../build/origincar_abc/origincar_abc.egg-info/SOURCES.txt'
+running build
+running build_py
+copying origincar_abc/foxglove.py -> /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc
+running install
+running install_lib
+creating /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc
+copying /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc/__init__.py -> /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc
+copying /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc/foxglove.py -> /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc
+copying /root/dev1_ws/build/origincar_abc/build/lib/origincar_abc/test.py -> /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc
+byte-compiling /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc/__init__.py to __init__.cpython-38.pyc
+byte-compiling /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc/foxglove.py to foxglove.cpython-38.pyc
+byte-compiling /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc/test.py to test.cpython-38.pyc
+running install_data
+copying resource/origincar_abc -> /root/dev1_ws/install/origincar_abc/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev1_ws/install/origincar_abc/share/origincar_abc
+copying launch/yolov5.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch
+copying launch/base_cam_qrcode.launch.py -> /root/dev1_ws/install/origincar_abc/share/origincar_abc/launch
+running install_egg_info
+Copying ../../../build/origincar_abc/origincar_abc.egg-info to /root/dev1_ws/install/origincar_abc/lib/python3.8/site-packages/origincar_abc-0.0.0-py3.8.egg-info
+running install_scripts
+Installing foxglove script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc
+Installing test_node script to /root/dev1_ws/install/origincar_abc/lib/origincar_abc
+writing list of installed files to '/root/dev1_ws/build/origincar_abc/install.log'

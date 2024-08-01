@@ -1,0 +1,37 @@
+[8.579s] Invoking command in '/root/dev1_ws/src/origincar/3rdparty/tf2_tools': PYTHONPATH=/root/dev1_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev1_ws/build/tf2_tools/build install --record /root/dev1_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[11.966s] running egg_info
+[11.975s] creating ../../../../build/tf2_tools/tf2_tools.egg-info
+[11.977s] writing ../../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+[11.981s] writing dependency_links to ../../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+[11.984s] writing entry points to ../../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+[11.987s] writing requirements to ../../../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+[11.989s] writing top-level names to ../../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+[12.005s] writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[12.397s] reading manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[12.405s] writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[12.409s] running build
+[12.411s] running build_py
+[12.414s] creating /root/dev1_ws/build/tf2_tools/build
+[12.417s] creating /root/dev1_ws/build/tf2_tools/build/lib
+[12.419s] creating /root/dev1_ws/build/tf2_tools/build/lib/tf2_tools
+[12.422s] copying tf2_tools/view_frames.py -> /root/dev1_ws/build/tf2_tools/build/lib/tf2_tools
+[12.429s] copying tf2_tools/__init__.py -> /root/dev1_ws/build/tf2_tools/build/lib/tf2_tools
+[12.434s] running install
+[12.443s] running install_lib
+[12.457s] creating /root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[12.459s] copying /root/dev1_ws/build/tf2_tools/build/lib/tf2_tools/view_frames.py -> /root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[12.462s] copying /root/dev1_ws/build/tf2_tools/build/lib/tf2_tools/__init__.py -> /root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[12.469s] byte-compiling /root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/view_frames.py to view_frames.cpython-38.pyc
+[12.487s] byte-compiling /root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/__init__.py to __init__.cpython-38.pyc
+[12.490s] running install_data
+[12.493s] creating /root/dev1_ws/install/tf2_tools/share/ament_index
+[12.495s] creating /root/dev1_ws/install/tf2_tools/share/ament_index/resource_index
+[12.498s] creating /root/dev1_ws/install/tf2_tools/share/ament_index/resource_index/packages
+[12.502s] copying resource/tf2_tools -> /root/dev1_ws/install/tf2_tools/share/ament_index/resource_index/packages
+[12.507s] copying package.xml -> /root/dev1_ws/install/tf2_tools/share/tf2_tools
+[12.513s] running install_egg_info
+[12.529s] Copying ../../../../build/tf2_tools/tf2_tools.egg-info to /root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info
+[12.539s] running install_scripts
+[12.732s] Installing view_frames script to /root/dev1_ws/install/tf2_tools/lib/tf2_tools
+[12.738s] writing list of installed files to '/root/dev1_ws/build/tf2_tools/install.log'
+[12.967s] Invoked command in '/root/dev1_ws/src/origincar/3rdparty/tf2_tools' returned '0': PYTHONPATH=/root/dev1_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/dev1_ws/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/tf2_tools build --build-base /root/dev1_ws/build/tf2_tools/build install --record /root/dev1_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
