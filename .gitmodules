@@ -1,3 +1,6 @@
 [submodule "dev1_ws/src/origincar/hobot_dnn"]
 	path = dev1_ws/src/origincar/hobot_dnn
 	url = https://github.com/HorizonRDK/hobot_dnn.git
+[submodule "yolov5-for-rdkx3"]
+	path = yolov5-for-rdkx3
+	url = https://gitee.com/xiaobairisk/yolov5-for-rdkx3.git
